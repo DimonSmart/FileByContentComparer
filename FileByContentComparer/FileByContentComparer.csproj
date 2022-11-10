@@ -9,18 +9,23 @@
     <Version>1.0.0</Version>
     <Authors>Dmitry Dorogoy</Authors>
     <Company>DimonSmart</Company>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
 
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RootNamespace>DimonSmart.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
     <PackageTags>FileContent;Compare;BinaryCompare</PackageTags>
 
-	<Description>This package provide file by content comparision functionality with FileByContent class and IFileByContent interface</Description>
+    <Description>This package provide file by content comparision functionality with FileByContent class and IFileByContent interface</Description>
 
-	<RepositoryUrl>https://github.com/DimonSmart/FileByContentComparer</RepositoryUrl>
-	<RepositoryType>git</RepositoryType>
-	<PackageLicenseExpression>0BSD</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/DimonSmart/FileByContentComparer</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>0BSD</PackageLicenseExpression>
   
   </PropertyGroup>
+
+    <ItemGroup>
+       <None Include="docs\readme.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
 </Project>
