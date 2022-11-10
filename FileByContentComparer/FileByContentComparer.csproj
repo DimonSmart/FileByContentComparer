@@ -19,7 +19,8 @@
 
 	<RepositoryUrl>https://github.com/DimonSmart/FileByContentComparer</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>
-
+	<PackageLicenseExpression>0BSD</PackageLicenseExpression>
+  
   </PropertyGroup>
 
 </Project>
