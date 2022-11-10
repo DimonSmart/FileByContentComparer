@@ -1,4 +1,4 @@
-﻿#Full trottle
+﻿#FileByContentComparer
 
 This simple library uses buffered file reading for binary content comparision.
 
